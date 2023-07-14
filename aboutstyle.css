@@ -1,0 +1,81 @@
+.hometoplogo{
+    text-align: left;
+    background-color: white;
+}
+
+#homebg{
+    background-color: slategray;
+}
+
+#hometitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: white;
+}
+
+#homepbg{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: white;
+    background-color: rgb(153, 19, 59);
+    height: 100%;
+    padding: 6%;
+    border: 2px;
+    border-style: double;
+    border-color: black;
+}
+
+#floatright{
+    float: right;
+}
+
+#floatleft{
+    float: left;
+}
+
+#homefooter{
+    background-color: rgb(56, 37, 37);
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    border: 2px;
+    border-style: double;
+}
+
+li{
+    float: left;
+    border-right: 1px;
+}
+
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+  
+li a:hover{
+    background-color: red;
+}
+
+h1{
+    font-family: 'Lalezar';
+    color: white;
+}
+
+p {
+    font-family: 'Josefin Sans';
+    color: white;
+    font-size: 20px;
+}
+

@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <title>Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans|Archivo+Black|Lalezar">
+        <link rel="stylesheet" type="text/css" href="aboutstyle.css">
+        <script type = "text/javascript">
+            function Home(){
+                window.location.href="index.html"
+            }
+            function Product(){
+                window.location.href="finalsproducts.html"
+            }
+            function activepage(){
+                alert("You're here!");
+            }
+            function Facebook(){
+                window.location.href="https://www.facebook.com/PLDTHome"
+            }
+            function Twitter(){
+                window.location.href="https://twitter.com/pldthome"
+            }
+            function Insta(){
+                window.location.href="https://www.instagram.com/pldthome/"
+            }
+            function Youtube(){
+                window.location.href="https://www.youtube.com/user/PLDTHome"
+            }
+        </script>
+        <style>
+    .homepbg{
+    background-color: rgb(153, 19, 59);
+    height: 100%;
+    padding: 5%;
+    border: 2px;
+    border-style: double;
+    border-color: black;
+    }
+
+    .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+
+        </style>
+    </head>
+
+    <header>
+        <ul>
+            <li><a onclick="activepage()";><img src="https://companieslogo.com/img/orig/PHI-fc6400c0.png?t=1635525872" height="18" width="18"></a></li>
+            <li><a onclick="Home()";>Home</a></li>
+            <li><a onclick="activepage()";>About Us</a></li>
+            <li><a onclick="Product()";>Our Product</a></li>
+        </ul>
+    </header>
+
+    <body id="homebg">
+        <div class="homepbg">
+        <section id="section-bg" style="background: url(https://media.datacenterdynamics.com/media/images/23d7d4d_101.original.jpg) center top / cover;">
+            <div class="position-text-center container"><div class="row"><div class="col-md-8 col-lg-5"><div>
+                <h1>ABOUT US</h1>
+            <p>Through innovation, slacking off, and a messy system, PLDT does care(a little) provides the country with a connectionto the WORLD WIDE WEB!<br>
+                </p></div></div></div></div></section>
+            <br>
+            <img id="floatright" src="https://sa.kapamilya.com/absnews/abscbnnews/media/2020/business/11/13/20190509-pldt-results-briefing-gc-7631.jpg" width="600" height="400">
+            <p>
+                One of our submarine cable partners confirms a loss<br>
+                in some of its internet bandwidth capacity<br>
+                and thus causing slower internet browsing.<br>
+                We are working with our partners to provide alternate capacity<br>
+                that would restore the browsing experience in the next few hours.<br>
+                We promise that this problem will persist.<br>
+                You will experience slow speeds even at maximum capacity<br>
+                We're here and we never deliver.<br>
+                We implore you understand that profit comes first<br>
+                before customer experience<br>
+                Us first, you later.<br>
+                XOXO<br>
+            </p>
+            <h1>
+                PLDT does care(not really), 2023
+            </h1>
+
+    </div>
+
+
+    </body>
+
+    <footer>
+        <ul id="homefooter">
+            <li id="floatright"><a onclick="Facebook()";><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1024px-Facebook_Logo_%282019%29.png" height="30" width="30"></a></li>
+            <li id="floatright"><a onclick="Twitter()";><img src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-twitter-social-media-round-icon-png-image_6315985.png" height="30" width="30"></a></li>
+            <li id="floatright"><a onclick="Insta()";><img src="https://static.vecteezy.com/system/resources/thumbnails/017/743/717/small_2x/instagram-icon-logo-free-png.png" height="30" width="30"></a></li>
+            <li id="floatright"><a onclick="Youtube()";><img src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-youtube-social-media-round-icon-png-image_6315993.png" height="30" width="30"></a></li>
+        </ul>
+    </footer>
+</html>

@@ -1,0 +1,79 @@
+.hometoplogo{
+    text-align: left;
+    background-color: white;
+}
+
+.border{
+    border: 2px;
+    border-color: black;
+    border-style: double;
+}
+
+.hometext{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+
+#homebg{
+    background-color: slategray;
+}
+
+#hometitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: white;
+}
+
+#homepbg{
+    background-color: crimson;
+    height: 100%;
+    padding: 6%;
+    border: 2px;
+    border-style: double;
+    border-color: black;
+}
+
+#floatright{
+    float: right;
+}
+
+#floatleft{
+    float: left;
+}
+
+#homefooter{
+    background-color: rgb(56, 37, 37);
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    border: 2px;
+    border-style: double;
+}
+
+li{
+    float: left;
+    border-right: 1px;
+}
+
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+  
+li a:hover{
+    background-color: red;
+}
